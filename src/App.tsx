@@ -8,7 +8,7 @@ function App() {
         // container is for bootstrap
         <Container className='my-4'>
             <Routes>
-                <Route path='/products' element={<h1>Hi</h1>}/>
+                <Route path='/' element={<h1>Hi</h1>}/>
                 <Route path='/new' element={<NewNote />} />
                 {/* routes can be nested */}
                 <Route path='/:id'>
